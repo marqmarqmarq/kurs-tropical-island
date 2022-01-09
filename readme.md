@@ -1,5 +1,8 @@
-*Kurs tropical island
+*Kurs tropical island*
 
-**Zawartość
+Zawartość
 
-#Animacja burger menu
+-Animacja burger menu
+-Animacja + js rozwijane burger menu 
+-sekcja grafika + tekst
+-sekcja hero-img 
