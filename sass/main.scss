@@ -20,6 +20,8 @@ body {
     font-size: 1.6rem;
 }
 
+
+
 // navigation
 
 .nav {
@@ -130,6 +132,12 @@ body {
 
 .nav-items-animation {
     animation: navItemsAnimation 1s both;
+}
+
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+    background-color: $dark;
 }
 
 // header
@@ -524,7 +532,7 @@ body {
     }
 
     &__box-social {
-        margin: 2em 1em;
+        margin: 2em 0;
     }
 
     &__box-link {
@@ -676,12 +684,12 @@ body {
         }
 
         &__box {
-           margin: 0 2em;
-           width: 25%; 
+            margin: 0 2em;
+            width: 25%;
 
-           &:first-child {
-               width: 50%;
-           }
+            &:first-child {
+                width: 50%;
+            }
         }
 
         &__box-title {
